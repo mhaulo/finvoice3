@@ -14,12 +14,12 @@ Gem::Specification.new do |s|
   s.require_path = "lib"
   s.required_ruby_version = ">= 2.7"
   
-  s.add_runtime_dependency "nokogiri"
+  s.add_runtime_dependency "nokogiri", "~> 1"
 
-  s.add_development_dependency "bundler"
-  s.add_development_dependency "rake"
-  s.add_development_dependency "minitest"
-  s.add_development_dependency "byebug"
+  s.add_development_dependency "bundler", "~> 2"
+  s.add_development_dependency "rake", "~> 13"
+  s.add_development_dependency "minitest", "~> 5"
+  s.add_development_dependency "byebug", "~> 11"
   
   s.metadata["rubygems_mfa_required"] = "true"
 end
