@@ -1,4 +1,4 @@
-require "finvoice3/version"
+require_relative "lib/finvoice3/version"
 
 Gem::Specification.new do |s|
   s.name        = "finvoice3"
