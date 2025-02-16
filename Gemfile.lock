@@ -1,15 +1,17 @@
 PATH
   remote: .
   specs:
-    finvoice3 (0.0.1)
-      nokogiri
+    finvoice3 (1.0)
+      nokogiri (~> 1)
 
 GEM
   remote: https://rubygems.org/
   specs:
     byebug (11.1.3)
+    mini_portile2 (2.8.8)
     minitest (5.20.0)
-    nokogiri (1.15.5-x86_64-linux)
+    nokogiri (1.15.5)
+      mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     racc (1.7.3)
     rake (13.1.0)
@@ -18,11 +20,11 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  bundler
-  byebug
+  bundler (~> 2)
+  byebug (~> 11)
   finvoice3!
-  minitest
-  rake
+  minitest (~> 5)
+  rake (~> 13)
 
 BUNDLED WITH
    2.4.14
